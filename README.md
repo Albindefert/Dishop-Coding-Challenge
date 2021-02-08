@@ -1,3 +1,6 @@
-# Getting Started with Create React App
+# Dishop Coding Challenge
 
-This coding challenge aims at creating a website containing a home page as well as movies and series pages. 
+This coding challenge aims at creating a website via Create React App. The goal is tro create three pages: 
+  - home
+  - movies
+  - series 
