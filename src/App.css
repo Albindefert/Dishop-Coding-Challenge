@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+  
+.Movies,
+.Series,
+.Sign-Up-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+.Movies {
+    background-image: url('./backgroundImages/img-acceuil-movie.jpg');
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 120px;
+}
+  
+.Series {
+    background-image: url('./backgroundImages/img-acceuil-serie.jpg');
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 120px;
+}
+  
+.Sign-Up-container {
+    background-image: url('./backgroundImages/img-acceuil-signup.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;  
+}
+
+.Sign-Up-subscription{
+  margin-bottom: 80px;
+  font-size: 80px; 
+  text-align: center;
+}
+
+.Sign-Up-inputs-area{
+  border: 2px solid #fff;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-right: 65px;
+  margin-left: 65px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.Sign-Up-inputs-form{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.Sign-Up-input{
+  padding: 8px 20px;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 15px;
+  border: 5px solid #fff;
+}
